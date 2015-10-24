@@ -10,33 +10,35 @@
              </div>
           <div id="1" style="display:none" class="pricing"><title>Micro</title>
               <span class="glyphicon glyphicon-pawn" style="font-size:150px"></span>
-          <h1> $100-500 </h1>
-
+          <h2> AdHoc  $30-$75/hr </h2>
+          <h2> Hours:  8 or less </h2>
           <span></span>
           </div>
           <div id="2" style="display:none" class="pricing"><title>Small</title>
           
               <span class="glyphicon glyphicon-knight" style="font-size:150px"></span>
-          <h1> $500-$4000 </h1>
+          <p> Budget: $500-$4000 </p>
+          <p> Hours: 8+ </p>
+      
           </div>
      
           <div id="3" style="display:none" class="pricing"><title>Medium</title>
           
               <span class="glyphicon glyphicon-bishop" style="font-size:150px"></span>
  
-          <h1> $4000-$25000 </h1>
+          <p> Budget: $4000-$25000$ </p>
           </div>
           <div id="4" style="display:none" class="pricing"><title>Large</title>
           
               <span class="glyphicon glyphicon-queen" style="font-size:150px"></span>
          
-          <h1> $25000+ </h1>
+          <p> Budget: $25000+ </p>
           </div>
  
           <div id="5" style="display:none" class="pricing"><title>Enterprise</title>
               <span class="glyphicon glyphicon-king" style="font-size:150px"></span>
           
-          <h1> Please Contact Us For Details </h1>
+          <h2> Please Contact Us For Details </h2>
           </div>
    
            <input type="range"  min="0" max="5" step="1" value="0" >
@@ -70,11 +72,6 @@
                 <p>{{ site.github_username }}</p>
             </a>
         </div>
+
     </div>
-
-    <div class="text-center">
-        <span class="glyphicon glyphicon-asterisk"></span> Please keep email subject line format
-    </div>
-
-
 </section>
