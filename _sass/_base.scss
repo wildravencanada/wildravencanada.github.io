@@ -231,9 +231,12 @@ header {
 
 .portfolio-box {
     position: relative;
-    display: block;
+    display: inline-block;
     max-width: 650px;
     margin: 0 auto;
+    -webkit-column-break-inside: avoid;
+    -moz-column-break-inside: avoid;
+    column-break-inside: avoid;
     .portfolio-box-caption {
         color: white;
         opacity: 0;
@@ -296,10 +299,25 @@ header {
     color: $theme-primary;
 }
 
-.no-gutter > [class*='col-'] {
-    padding-right:0;
-    padding-left:0;
+.no-gutter {
+    -webkit-column-count: 3;
+    -webkit-column-gap: 10px;
+    -webkit-column-fill: auto;
+    -moz-column-count: 3;
+    -moz-column-gap: 10px;
+    -moz-column-fill: auto;
+    column-count: 3;
+    column-gap: 15px;
+    column-fill: auto;
 }
+
+
+
+
+//.no-gutter > [class*='col-'] {
+//    padding-right:0;
+//    padding-left:0;
+//}
 
 // Button Styles
 .btn-default {
