@@ -299,7 +299,7 @@ header {
     color: $theme-primary;
 }
 
-.no-gutter {
+#image-column {
     -webkit-column-count: 3;
     -webkit-column-gap: 10px;
     -webkit-column-fill: auto;
@@ -314,10 +314,10 @@ header {
 
 
 
-//.no-gutter > [class*='col-'] {
-//    padding-right:0;
-//    padding-left:0;
-//}
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
 
 // Button Styles
 .btn-default {
