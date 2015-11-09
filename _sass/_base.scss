@@ -231,12 +231,9 @@ header {
 
 .portfolio-box {
     position: relative;
-    display: inline-block;
+    display: block;
     max-width: 650px;
     margin: 0 auto;
-    -webkit-column-break-inside: avoid;
-    -moz-column-break-inside: avoid;
-    column-break-inside: avoid;
     .portfolio-box-caption {
         color: white;
         opacity: 0;
